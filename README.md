@@ -4,7 +4,7 @@
 ---------
 Build the backend for an e-commerce site that works with Express.js API  and interacts with MySQL database.
 
-[![GitHub license](https://img.shields.io/github/license/meredithcoyne/ecommerce_backend.js.svg)](https://github.com/meredithcoyne/ecommerce_backend.js/blob/master/LICENSE)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/meredithcoyne/ecommerce_backend.js/master/LICENSE)
 
 
 
@@ -19,23 +19,44 @@ Build the backend for an e-commerce site that works with Express.js API  and int
   
 ## Installation
 ------
-1. Download or clone repository
+1. Download or clone repository.
 2. Node.js is required to run the application
 3. `npm install` to install the required npm packages
-4. `npm init -y` to install package.json file
-5. `npm install figlet` to install figlet graphics
-6. `npm install mysql` to install mysql
-7. `npm i inquirer` to install default
+4. `npm install sequelize` to install sequelize
+5. `npm install mysql2` to install mysql2
+
 
 ## Usage
 ------
-* To start using the application, use mySQL Workbench to setup the database using this file
+* In order for the application to run, MySQL must be installed in your environment. Then, from the root folder, enter the sql shell and run the following commands.
 
-    [scheme.sql](main/db/schema.sql)
+    [scheme.sql](/db/schema.sql)
 
-* The application is invoked by running `node index.js` in the command line
+* Exit the sql shell and return to the command line still within your root project folder.
 
-* Follow the prompts to finish application
+* Run the following commands
+  
+    *  `npm run seed`
+
+    * `npm start`
+
+  *  ### DB START
+    ![DB START](assets\db_start.gif)
+
+    
+  *  ### GET ROUTES
+    ![GET ROUTES](assets\get_routes.gif)
+  
+  
+  *  ### POST/PUT/DELETE TAGS
+    ![POST PUT DELETE TAGS](assets\ppd_tags.gif)
+
+    
+     *  ### POST/PUT/DELETE PRODUCTS
+    ![POST PUT DELETE PRODUCTS](assets\ppd_products.gif)
+
+   *  ### POST/PUT/DELETE CATEGORIES
+    ![POST PUT DELETE CATEGORIES](assets\ppd_categories.gif)
   
 ## Resources
 ------
@@ -48,15 +69,12 @@ Build the backend for an e-commerce site that works with Express.js API  and int
 ------
 ![Employee Management System](assets\employee_management.gif)
 
-* [Video Demo]()
-
-* [Deployed Webiste](https://meredithcoyne.github.io/employee_tracker/)
 
 ## Questions
   ------
   For any questions, please contact me via github or e-mail. 
 
-  * Checkout my [GitHub profile](https://github.com/meredithcoyne/employee_tracker)
+  * Checkout my [GitHub Repository](https://github.com/meredithcoyne/employee_tracker)
   
   * Any additional questions or feed back, feel free to [send an email](mailto:meredithleigh.coyne@gmail.com). 
 
