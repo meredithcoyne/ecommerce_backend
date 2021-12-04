@@ -1,15 +1,11 @@
 # E-commerce Backend
-
+![MIT License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
 ---------
-Build the backend for an e-commerce site that works with Express.js API  and interacts with MySQL database.
-
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/meredithcoyne/ecommerce_backend.js/master/LICENSE)
-
-
+Build the backend for an e-commerce site that works with Express.js and interacts with MySQL database, JSON, Sequalize, and Insomnia
 
 ## Table of Contents
-------
+-----
  * [Installation](https://github.com/meredithcoyne/ecommerce_backend#Installation)
  * [Usage](https://github.com/meredithcoyne/ecommerce_backend#Usage)
  * [Resources](https://github.com/meredithcoyne/ecommerce_backend#Resources)
@@ -24,6 +20,9 @@ Build the backend for an e-commerce site that works with Express.js API  and int
 3. `npm install` to install the required npm packages
 4. `npm install sequelize` to install sequelize
 5. `npm install mysql2` to install mysql2
+6. Open MYSQL and enter schema with live host to create a database to connect.
+7. `npm run seed` be entered into your terminal after the .env file is inputted.
+8. Run `npm start` to run the localhost:3001
 
 
 ## Usage
@@ -67,14 +66,14 @@ Build the backend for an e-commerce site that works with Express.js API  and int
 
 ## Demo
 ------
-![Employee Management System](assets\employee_management.gif)
+![Employee Management System]()
 
 
 ## Questions
   ------
   For any questions, please contact me via github or e-mail. 
 
-  * Checkout my [GitHub Repository](https://github.com/meredithcoyne/employee_tracker)
+  * Checkout my [GitHub Repository](https://github.com/meredithcoyne/ecommerce_backend)
   
   * Any additional questions or feed back, feel free to [send an email](mailto:meredithleigh.coyne@gmail.com). 
 
