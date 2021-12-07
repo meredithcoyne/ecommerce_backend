@@ -9,11 +9,8 @@ const {
 // The `/api/products` endpoint
 
 // get all products
-router.get('/:id', (req, res) => {
-  Product.findOne({
-      where: {
-        id: req.params.id,
-      },
+router.get('/', (req, res) => {
+  Product.findAll({
       include: [
         Category,
         {
@@ -25,7 +22,7 @@ router.get('/:id', (req, res) => {
     .then((products) => res.json(products))
     .catch((err) => {
       console.log(err);
-      res.status(400).json(err);
+      res.status(500).json(err);
     });
 });
 
