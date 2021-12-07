@@ -40,22 +40,20 @@ Build the backend for an e-commerce site that works with Express.js and interact
     * `npm start`
 
   *  ### DB START
-    ![DB START](assets\db_start.gif)
+    ![DB START](assets\db.gif)
 
-    
-  *  ### GET ROUTES
-    ![GET ROUTES](assets\get_routes.gif)
   
   
-  *  ### POST/PUT/DELETE TAGS
-    ![POST PUT DELETE TAGS](assets\ppd_tags.gif)
+  
+  *  ### TAGS Routes
+    ![POST PUT DELETE TAGS](assets\TAG.png)
 
     
-     *  ### POST/PUT/DELETE PRODUCTS
-    ![POST PUT DELETE PRODUCTS](assets\ppd_products.gif)
+     *  ### PRODUCTS Routes
+    ![POST PUT DELETE PRODUCTS](assets\Products.png)
 
-   *  ### POST/PUT/DELETE CATEGORIES
-    ![POST PUT DELETE CATEGORIES](assets\ppd_categories.gif)
+   *  ### CATEGORIES Routes
+    ![POST PUT DELETE CATEGORIES](assets\Category.png)
   
 ## Resources
 ------
@@ -66,7 +64,7 @@ Build the backend for an e-commerce site that works with Express.js and interact
 
 ## Demo
 ------
-![Employee Management System]()
+[Ecommerce Backend](https://youtu.be/JTb3So3zhE4)
 
 
 ## Questions
