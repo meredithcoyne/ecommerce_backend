@@ -40,20 +40,20 @@ Build the backend for an e-commerce site that works with Express.js and interact
     * `npm start`
 
   *  ### DB START
-    ![DB START](assets\db.gif)
+    ![DB START](assets/db.gif)
 
   
   
   
   *  ### TAGS Routes
-    ![POST PUT DELETE TAGS](assets\TAG.png)
+    ![POST PUT DELETE TAGS](assets/TAG.png)
 
     
      *  ### PRODUCTS Routes
-    ![POST PUT DELETE PRODUCTS](assets\Products.png)
+    ![POST PUT DELETE PRODUCTS](assets/Products.png)
 
    *  ### CATEGORIES Routes
-    ![POST PUT DELETE CATEGORIES](assets\Category.png)
+    ![POST PUT DELETE CATEGORIES](assets/Category.png)
   
 ## Resources
 ------
